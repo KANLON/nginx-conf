@@ -7,6 +7,7 @@
 每个配置文件基本都是一个服务的nginx配置
 
 
+其中[nginx.conf.bak](./nginx.conf.bak) 为nginx的主配置文件
 
 ## 常用的一些配置说明
 
