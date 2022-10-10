@@ -42,7 +42,7 @@ http {
         log_format main '$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent" "$request_time" "$upstream_response_time"';
 		# 这里的日志目录需要拥有写权限
         access_log /data/weblog/nginx/${server_name}.access.log;
-        error_log /data/weblog/nginx/${server_name}.error.log;
+        error_log /data/weblog/nginx/error.log;
 
         ##
         # Gzip Settings
